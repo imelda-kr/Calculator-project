@@ -38,8 +38,8 @@ Nakon što je projekt uspješno kompiliran:
 
 ### Funkcionalnosti:
 - **Osnovne matematičke operacije**: Zbrajanje, oduzimanje, množenje, dijeljenje.
-- **Podrška za zagrade**: Mogućnost korištenja zagrada za složenije izraze.
-- **Podrška za decimalne brojeve**: Korištenje decimalne točke (npr. 3.14).
+- **Mogućnost za zagrade**: Mogućnost korištenja zagrada za složenije izraze.
+- **Mogućnost za decimalne brojeve**: Korištenje decimalne točke (npr. 3.14).
 - **Promjena znaka**: Mogućnost promjene znaka trenutnog broja na ekranu.
 - **Brisanje (AC)**: Resetiranje kalkulatora na početno stanje.
 
@@ -54,7 +54,7 @@ Nakon što je projekt uspješno kompiliran:
 ## Opis problema
 
 Tijekom razvoja projekta suočili smo se s nekoliko izazova:
-1. **Podrška za zagrade i decimalne brojeve**: Implementacija podrške za zagrade i decimalne brojeve zahtijevala je posebnu pažnju zbog složenosti evaluacije izraza.
+1. **Mogućnost za zagrade i decimalne brojeve**: Implementacija mogućnosti za zagrade i decimalne brojeve zahtijevala je posebnu pažnju zbog složenosti evaluacije izraza.
 2. **Greška pri negativnim brojevima**: Pojavila se greška prilikom unosa izraza koji započinju negativnim brojevima (npr. `-3+6*2`). Problem je riješen dodatnim provjerama i prilagodbama funkcije za evaluaciju izraza.
 3. **Ispravno rukovanje nizom na ekranu**: Prilagodili smo unos kako bismo izbjegli prikaz suvišnih nula na početku izraza, osobito pri unosu zagrada ili decimalne točke.
 
@@ -67,10 +67,7 @@ Tijekom razvoja projekta suočili smo se s nekoliko izazova:
    - Dodavanje korisničkih obavijesti za greške poput dijeljenja s nulom.
    
 3. **Poboljšanje korisničkog sučelja**:
-   - Redizajn sučelja s modernijim izgledom i dodatnim vizualnim efektima.
+   - Redizajn sučelja s još modernijim izgledom i dodatnim vizualnim efektima.
 
-4. **Internacionalizacija**:
-   - Podrška za više jezika kako bi kalkulator bio dostupniji širem broju korisnika.
-
-5. **Testiranje i optimizacija**:
+4. **Testiranje i optimizacija**:
    - Dodavanje jediničnih testova kako bi se osigurala stabilnost aplikacije.
